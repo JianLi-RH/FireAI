@@ -23,7 +23,7 @@ COPY . /usr/src/app
 
 # Downloads to user config dir
 # https://www.freefontspro.com/d/14454/arial.zip
-ADD Arial.ttf /root/.config/Ultralytics/
+ADD http://d.xiazaiziti.com/fonts/a/Arial.ttf /root/.config/Ultralytics/
 
 # Set environment variables
 # ENV HOME=/usr/src/app
